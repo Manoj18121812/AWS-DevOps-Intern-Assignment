@@ -2,15 +2,15 @@
 
 ## AWS Services Used
 
-- Amazon EC2
+- Amazon EC2 (t3.small)
 - Security Groups
 - Elastic IP (Bonus)
 
 ## Linux Commands
 
-sudo apt update
+sudo apt-get update
 
-sudo apt install nginx -y
+sudo apt-get install nginx -y
 
 sudo systemctl status nginx
 
@@ -18,18 +18,22 @@ sudo systemctl restart nginx
 
 df -h
 
-free -h
+free -m
 
 ps -ef
 
+top
+
+htop
+
 ## Website Deployment
 
-The default Nginx page was replaced with a custom HTML page containing personal details.
+The default Nginx page was replaced with a custom HTML page containing personal details. 
 
 ## Git Commands
 
 git add .
 
-git commit -m "Initial Commit"
+git commit -m "All New"
 
-git push origin main
+git push -u origin main
